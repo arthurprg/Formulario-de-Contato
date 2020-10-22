@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    height: 100%;    
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 30px auto;
+
+    text-align: center;
+    font-family: "Caviar Dreams";
+}
+
+form fieldset{
+    padding: 0 20px 40px;
+}
+
+form legend{
+    text-align: left;
+    font-size: 35px;
+
+    color: rgba(4, 88, 43, 0.623);
+}
+
+form input[type=text]:hover{
+    background-color: rgb(233, 255, 248);
+}
+
+form input[type=text]{
+    width: 80%;
+    padding: 10px 13px;
+    margin-top: 30px;
+    
+    display: inline-block;
+   
+    border: 2px solid rgba(9, 105, 54, 0.623);
+    font-size: 20px;
+    font-family: "Caviar Dreams";
+}
+
+form input[type=text]:focus, form select:focus, form textarea:focus{
+    outline: 0;
+}
+
+form select:hover{
+    background-color: rgb(233, 255, 248);
+}
+
+form select{
+    width: calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+
+    display: inline-block;
+
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Caviar Dreams";
+
+    color: rgb(121, 121, 121);
+    border: 2px solid rgba(9, 105, 54, 0.623);
+}
+
+
+form h2{
+    margin-top: 20px;
+
+    color: rgba(4, 88, 43, 0.623);
+    font-family: "Caviar Dreams";
+}
+
+.radio-input{
+    margin-top: 20px;
+    text-align: left;
+    
+    display: inline-block;
+
+    font-family: "Caviar Dreams";
+}
+
+.radio-input span{
+    margin-left: 13px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: rgba(71, 71, 71, 0.623);
+}
+
+.input{
+    margin-top:20px;
+    text-align: left;
+
+    display: inline-block;
+
+    font-family: "Caviar Dreams";
+}
+
+.input span{
+    margin-left: 13px;
+    font-size: 20px;
+
+    font-weight: 600;
+    color: rgba(71, 71, 71, 0.623);
+}
+
+form textarea:focus{
+    background-color: rgb(233, 255, 248);
+}
+
+form textarea{
+    width: 80%;
+    height: 140px;
+    padding: 10px 13px;
+    margin-top: 30px;
+    
+    display: inline-block;
+
+    font-family: "Caviar Dreams";
+    font-size: 20px;
+    border: 2px solid rgba(9, 105, 54, 0.623);
+}
+
+form input[type=submit]:active{
+    background-color:rgba(29, 161, 46, 0.623);
+}
+
+form input[type=submit]{
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    padding: 5px;
+
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+
+    font-size: 18px;
+    color: white;
+    background-color:rgba(3, 73, 36, 0.623);
+}
+

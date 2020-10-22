@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css" type="text/css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    
+    
+    <form>
+        <fieldset>
+            <legend>Formulário</legend>
+            <div><input type="text" name="nome" placeholder="Digite o seu nome..."></div>
+            <div><input type="text" name="email" placeholder="Digite o seu e-mail..."></div>
+            <div>
+                <select name="lista">
+                    <option disabled selected>Qual sua idade?</option>
+                    <option value="menor18">Menor que 18 anos</option>
+                    <option value="18ate25">Entre 18 anos e 25 anos</option>
+                    <option value="25ate45">Entre 25 anos e 45 anos</option>
+                    <option value="maior45">Maior que 45 anos</option>
+                </select>
+            </div>
+
+                <h2>De onde você é?</h2>
+
+            <div class="radio-input">
+                <div>
+                    <input type="radio" name="cidade" value="Cricíuma"/><span>Cricíuma</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="Içara"/><span>Içara</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="Cocal do Sul"/><span>Cocal do Sul</span>
+                </div>
+            </div><!--radio-input-->
+
+
+                <h2>Oque você gosta de comer?</h2>
+
+            <div class="input">
+                <div>
+                    <input type="checkbox" name="comida[]" value="Frutas"/><span>Frutas</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="comida[]" value="Fast-Food's"/><span>Fast-Food's</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="comida[]" value="Saladas"/><span>Saladas</span>
+                </div>
+            </div><!--input-->
+
+            <div>
+                <textarea name="observacao" placeholder="Possui alguma observação?"></textarea>
+            </div>
+            
+            <div>
+                <input type="submit" name="acao" value="Enviar">
+            </div>
+        </fieldset>
+    
+    </form>
+
+    
+    
+</body>
+
+</html>
